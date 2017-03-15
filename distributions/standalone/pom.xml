@@ -200,6 +200,10 @@
                     <artifactId>mule-service-weave</artifactId>
                     <groupId>org.mule.services</groupId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.mule.services</groupId>
+                    <artifactId>mule-service-soap</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
 
